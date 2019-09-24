@@ -1,9 +1,12 @@
 import React from 'react';
+import Nav from "./Nav";
+import Main from "./Main";
 
 function Looplab() {
   return (
-      <div className="App">
-        <p>This is the LoppLab Theme</p>
+      <div>
+        <Nav/>
+        <Main/>
       </div>
   );
 }

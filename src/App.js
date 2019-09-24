@@ -4,23 +4,27 @@ import './Projects/Home/App.css';
 import  Home  from "./Projects/Home/Home"
 import Looplab from "./Projects/LoopLab_Social_Theme/Looplab";
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCheck } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faCheckSquare, faCheck);
+
 class App extends Component {
 
   render() {
     return (
-      <div>
-        <BrowserRouter>
-          <Route exact path = "/" render = {() => (
-              <Home/>
-          )}
-          />
+      <BrowserRouter>
+        <Route exact path = "/" render = {() => (
+            <Home/>
+        )}
+        />
 
-          <Route exact path = "/Looplab" render = {() => (
-              <Looplab/>
-          )}
-          />
-        </BrowserRouter>
-      </div>
+        <Route exact path = "/Looplab" render = {() => (
+            <Looplab/>
+        )}
+        />
+      </BrowserRouter>
     )
   }
 }
