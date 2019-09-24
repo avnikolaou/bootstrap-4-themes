@@ -1,12 +1,11 @@
-import React from "react"
+import React,{ Component } from 'react';
 import "./App.css"
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import Background from "../../images/looplab/home.jpg"
 
+class Header extends Component{
 
-function Main() {
-    return (
-        <div>
+    render() {
+        return (
             <header id={"home-section"}>
                 <div className={"dark-overlay"}>
                     <div className={"home-inner container"}>
@@ -65,8 +64,9 @@ function Main() {
                     </div>
                 </div>
             </header>
-        </div>
-    )
+        )
+    }
+
 }
 
-export default Main
+export default Header
