@@ -53,6 +53,16 @@ class Main extends Component{
                                         και στοιχειοθεσίας.
                                     </div>
                                 </div>
+
+                                <div className={"d-flex"}>
+                                    <div className={"p-4 align-self-start"}>
+                                        <FontAwesomeIcon icon={"check"} className={"fa-2x"}/>
+                                    </div>
+                                    <div className={"p-4 align-self-end"}>
+                                        Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας
+                                        και στοιχειοθεσίας.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -103,6 +113,16 @@ class Main extends Component{
                                         και στοιχειοθεσίας.
                                     </div>
                                 </div>
+
+                                <div className={"d-flex"}>
+                                    <div className={"p-4 align-self-start"}>
+                                        <FontAwesomeIcon icon={"check"} className={"fa-2x"}/>
+                                    </div>
+                                    <div className={"p-4 align-self-end"}>
+                                        Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας
+                                        και στοιχειοθεσίας.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -134,6 +154,16 @@ class Main extends Component{
                                     και στοιχειοθεσίας. Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας
                                     και στοιχειοθεσίας.
                                 </p>
+                                <div className={"d-flex"}>
+                                    <div className={"p-4 align-self-start"}>
+                                        <FontAwesomeIcon icon={"check"} className={"fa-2x"}/>
+                                    </div>
+                                    <div className={"p-4 align-self-end"}>
+                                        Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας
+                                        και στοιχειοθεσίας.
+                                    </div>
+                                </div>
+
                                 <div className={"d-flex"}>
                                     <div className={"p-4 align-self-start"}>
                                         <FontAwesomeIcon icon={"check"} className={"fa-2x"}/>

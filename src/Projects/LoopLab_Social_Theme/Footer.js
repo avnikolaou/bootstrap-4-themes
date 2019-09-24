@@ -8,7 +8,7 @@ class Footer extends Component{
 
     render() {
         return(
-            <footer id={"main-footer"} className={"bg-dark"}>
+            <footer id={"footer-section"} className={"bg-dark"}>
                 <div className={"container"}>
                     <div className={"row"}>
                         <div className={"col text-center py-4"}>

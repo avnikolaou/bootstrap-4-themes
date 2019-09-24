@@ -1,4 +1,5 @@
 import React,{ Component } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./App.css"
 
 class Nav extends Component{
@@ -13,16 +14,16 @@ class Nav extends Component{
                     <div className={"collapse navbar-collapse"} id={"navbarCollapse"}>
                         <ul className={"navbar-nav ml-auto"}>
                             <li className={"nav-item"}>
-                                <a href="#home" className={"nav-link"}>Home</a>
+                                <Link className={"nav-link"} to="home-section" spy={true} smooth={true} duration={500} onSetActive={this.handleSetActive}>Home</Link>
                             </li>
                             <li className={"nav-item"}>
-                                <a href="#explore-head-section" className={"nav-link"}>Explore</a>
+                                <Link className={"nav-link"} to="explore-head-section" spy={true} smooth={true} duration={500} onSetActive={this.handleSetActive}>Explore</Link>
                             </li>
                             <li className={"nav-item"}>
-                                <a href="#create-head-section" className={"nav-link"}>Create</a>
+                                <Link className={"nav-link"} to="create-head-section" spy={true} smooth={true} duration={500} onSetActive={this.handleSetActive}>Create</Link>
                             </li>
                             <li className={"nav-item"}>
-                                <a href="#share-head-section" className={"nav-link"}>Share</a>
+                                <Link className={"nav-link"} to="share-head-section" spy={true} smooth={true} duration={500} onSetActive={this.handleSetActive}>Share</Link>
                             </li>
                         </ul>
                     </div>
