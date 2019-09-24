@@ -31,7 +31,7 @@ body {
     opacity: 0.8;
 }
 
-#home-section .svg-inline--fa {
+#home-section .svg-inline--fa , #create-section .svg-inline--fa{
     color: #008ed6;
     background-color: white;
     padding: 5px;

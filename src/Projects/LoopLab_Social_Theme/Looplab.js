@@ -1,14 +1,14 @@
 import React from 'react';
 import Nav from "./Nav";
 import Header from "./Header";
-import Explore from "./Explore";
+import Main from "./Main";
 
 function Looplab() {
   return (
       <div>
         <Nav/>
         <Header/>
-        <Explore></Explore>
+        <Main/>
       </div>
   );
 }
