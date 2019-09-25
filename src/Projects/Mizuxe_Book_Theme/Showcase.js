@@ -20,7 +20,7 @@ class Showcase extends Component{
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 </p>
                                 <a className={"btn btn-outline-secondary btn-lg text-white"} href="">
-                                    <FontAwesomeIcon icon={"arror-right"} className={"fa-2x"}/>Read more
+                                    <FontAwesomeIcon icon="arrow-right" className={"pr-1"}/>Read more
                                 </a>
                             </div>
 

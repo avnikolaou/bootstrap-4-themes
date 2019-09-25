@@ -3,10 +3,10 @@
   height: 50px; }
 
 .main-section {
-  margin-top: 90px; }
+  margin-top: 75px; }
 
 .mizuxe-nav {
-  min-height: 90px;
+  min-height: 75px;
   box-shadow: 2px 2px 5px #3292a6;
   opacity: 0.9;
   background: #ffffff; }
@@ -25,5 +25,20 @@
     left: 0;
     width: 100%;
     height: 100%; }
+
+#newsletter button {
+  background-color: #3292a6; }
+
+#boxes .custom-box {
+  background-color: #3292a6; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 3.5rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
 
 /*# sourceMappingURL=App.css.map */
