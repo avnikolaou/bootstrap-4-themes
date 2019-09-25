@@ -7,12 +7,6 @@ import Footer from "./Footer";
 
 class Looplab extends Component{
 
-    componentDidMount() {
-        // document.body.setAttribute("data-spy", "scroll");
-        // document.body.setAttribute("data-target", "#main-nav");
-        // document.body.setAttribute("id", "home");
-    }
-
     render() {
         return (
             <div>
