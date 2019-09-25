@@ -1,11 +1,11 @@
 import React,{ Component } from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import "./App.css"
 
 class Nav extends Component{
     render() {
         return (
-            <nav className={"navbar navbar-expand-sm bg-dark navbar-dark fixed-top"} id={"main-nav"}>
+            <nav className={"navbar navbar-expand-sm bg-dark navbar-dark fixed-top navbar-border"} id={"main-nav"}>
                 <div className={"container"}>
                     <a href="/" className={"navbar-brand"}>LoopLAB</a>
                     <button className={"navbar-toggler"} data-toggle = "collapse" data-target = "#navbarCollapse">

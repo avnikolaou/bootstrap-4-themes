@@ -1,0 +1,21 @@
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+$primary: #3292a6;
+$primary-pverlay: rgba(50, 146, 166, 0.8);
+
+.main-section {
+  margin-top: 105px;
+}
+
+.mizuxe-nav {
+  box-shadow: 2px 2px 5px $primary;
+  opacity: 0.9;
+  background: #ffffff;
+  .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+  }
+}

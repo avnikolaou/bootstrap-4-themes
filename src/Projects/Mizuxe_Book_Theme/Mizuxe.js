@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import './App.scss'
+import Nav from "./Nav";
 
 class Mizuxe extends Component{
 
     render() {
         return (
-            <div>
-                Mizuxe Theme!
-            </div>
+            <Nav/>
         )
     }
 }
