@@ -36,7 +36,7 @@ class Main extends Component{
                                 </p>
                                 <div className={"d-flex"}>
                                     <div className={"p-4 align-self-start"}>
-                                        <FontAwesomeIcon icon={"check"} className={"fa-2x"}/>
+
                                     </div>
                                     <div className={"p-4 align-self-end"}>
                                         Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας
