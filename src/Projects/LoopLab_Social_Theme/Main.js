@@ -8,7 +8,7 @@ class Main extends Component{
     render() {
         return(
             <div>
-                <section id={"explore-head-section"}>
+                <section id={"explore-head-section"} className={"head-section"}>
                     <div className={"container"}>
                         <div className={"row"}>
                             <div className={"col text-center py-5"}>

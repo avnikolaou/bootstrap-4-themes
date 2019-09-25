@@ -6,7 +6,7 @@ class Header extends Component{
 
     render() {
         return (
-            <header id={"home-section"}>
+            <header id={"home-section"} className={"head-section"}>
                 <div className={"dark-overlay"}>
                     <div className={"home-inner container"}>
                         <div className={"row"}>
