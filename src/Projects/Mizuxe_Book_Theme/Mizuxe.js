@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Showcase from "./Showcase";
 import Newsletter from "./Newsletter";
 import Boxes from "./Boxes";
+import About from "./About";
 
 class Mizuxe extends Component{
 
@@ -13,6 +14,7 @@ class Mizuxe extends Component{
                 <Showcase/>
                 <Newsletter/>
                 <Boxes/>
+                <About/>
             </div>
 
         )

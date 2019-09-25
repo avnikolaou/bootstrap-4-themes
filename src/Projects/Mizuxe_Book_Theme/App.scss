@@ -47,6 +47,16 @@ $primary-overlay: rgba(50, 146, 166, 0.75);
   }
 }
 
+#about {
+  h1 {
+    color: $primary;
+  }
+  .info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+  }
+}
 
 @media (max-width: 768px) {
   #showcase {
