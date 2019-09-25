@@ -7,32 +7,38 @@ import { faCheckSquare, faCheck, faArrowRight, faEnvelopeOpen, faArrowCircleDown
 import  Home  from "./Projects/Home/Home"
 import Looplab from "./Projects/LoopLab_Social_Theme/Looplab";
 import Mizuxe from "./Projects/Mizuxe_Book_Theme/Mizuxe";
+import Glozzom from "./Projects/Glozzom_Multi_Page_Theme/Glozzom";
 
 library.add(fab, faCheckSquare, faCheck, faArrowRight, faEnvelopeOpen, faArrowCircleDown,
     faFacebook, faInstagram, faTwitter, faUser, faEnvelope, faPencilAlt);
 
 class App extends Component {
 
-  render() {
-    return (
-      <BrowserRouter>
-        <Route exact path = "/" render = {() => (
-            <Home/>
-        )}
-        />
+    render() {
+        return (
+            <BrowserRouter>
+                <Route exact path = "/" render = {() => (
+                    <Home/>
+                )}
+                />
 
-        <Route exact path = "/Looplab" render = {() => (
-            <Looplab/>
-        )}
-        />
+                <Route exact path = "/Looplab" render = {() => (
+                    <Looplab/>
+                )}
+                />
 
-          <Route exact path = "/Mizuxe" render = {() => (
-              <Mizuxe/>
-          )}
-          />
-      </BrowserRouter>
-    )
-  }
+                <Route exact path = "/Mizuxe" render = {() => (
+                    <Mizuxe/>
+                )}
+                />
+
+                <Route exact path = "/Glozzom" render = {() => (
+                    <Glozzom/>
+                )}
+                />
+            </BrowserRouter>
+        )
+    }
 }
 
 export default App;
