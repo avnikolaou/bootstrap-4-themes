@@ -10,7 +10,7 @@ class Boxes extends Component{
                         <div className={"col-md-3"}>
                             <div className={"card text-center border-primary mb-resp"}>
                                 <div className={"card-body"}>
-                                    <h3 className={"text-primary"}>Be Better</h3>
+                                    <h3 className={"custon-h3"}>Be Better</h3>
                                     <p className={"text-muted"}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@ class Boxes extends Component{
                         <div className={"col-md-3"}>
                             <div className={"card text-center border-primary mb-resp"}>
                                 <div className={"card-body"}>
-                                    <h3 className={"text-primary"}>Be Faster</h3>
+                                    <h3 className={"custon-h3"}>Be Faster</h3>
                                     <p className={"text-muted"}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
                             </div>
