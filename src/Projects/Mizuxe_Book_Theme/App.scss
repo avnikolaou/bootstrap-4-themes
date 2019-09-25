@@ -1,10 +1,15 @@
+$primary: #3292a6;
+$primary-overlay: rgba(50, 146, 166, 0.75);
+
 .logo {
   width: 50px;
   height: 50px;
 }
 
-$primary: #3292a6;
-$primary-overlay: rgba(50, 146, 166, 0.75);
+
+.pointer {
+  cursor: pointer;
+}
 
 .main-section {
   margin-top: 75px;
@@ -83,6 +88,18 @@ $primary-overlay: rgba(50, 146, 166, 0.75);
 #contact {
   .custom-input {
     background-color: $primary;
+  }
+}
+
+#footer {
+  background-color: $primary;
+}
+
+@media (max-width: 991px) {
+  #contact {
+    img {
+      display: none;
+    }
   }
 }
 

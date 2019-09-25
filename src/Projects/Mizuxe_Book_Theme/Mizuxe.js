@@ -6,6 +6,7 @@ import Boxes from "./Boxes";
 import About from "./About";
 import Authors from "./Authors";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 class Mizuxe extends Component{
 
@@ -19,6 +20,7 @@ class Mizuxe extends Component{
                 <About/>
                 <Authors/>
                 <Contact/>
+                <Footer/>
             </div>
 
         )

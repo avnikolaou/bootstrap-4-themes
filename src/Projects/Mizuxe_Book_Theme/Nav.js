@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-scroll";
 import './App.scss'
 import logo from '../../images/mizuxe/mlogo.png'
 
@@ -18,16 +19,16 @@ class Nav extends Component{
                     <div className={"collapse navbar-collapse"} id={"navbarCollapse"}>
                         <ul className={"navbar-nav ml-auto"}>
                             <li className={"nav-item"}>
-                                <a href="#home" className={"nav-link"}>Home</a>
+                                <Link className={"nav-link pointer"} to="showcase" spy={true} smooth={true} offset={-75} duration={500} onSetActive={this.handleSetActive}>Home</Link>
                             </li>
                             <li className={"nav-item"}>
-                                <a href="#about" className={"nav-link"}>About</a>
+                                <Link className={"nav-link pointer"} to="about" spy={true} smooth={true} offset={-70} duration={500} onSetActive={this.handleSetActive}>About</Link>
                             </li>
                             <li className={"nav-item"}>
-                                <a href="#authors" className={"nav-link"}>Meet The Authors</a>
+                                <Link className={"nav-link pointer"} to="authors" spy={true} smooth={true} offset={-95} duration={500} onSetActive={this.handleSetActive}>Authors</Link>
                             </li>
                             <li className={"nav-item"}>
-                                <a href="#contact" className={"nav-link"}>Contact</a>
+                                <Link className={"nav-link pointer"} to="contact" spy={true} smooth={true} duration={500} onSetActive={this.handleSetActive}>Contact</Link>
                             </li>
                         </ul>
                     </div>
