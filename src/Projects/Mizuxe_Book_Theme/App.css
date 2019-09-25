@@ -53,6 +53,9 @@
   #authors .card:hover .svg-inline--fa {
     color: white; }
 
+#contact .custom-input {
+  background-color: #3292a6; }
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px; }

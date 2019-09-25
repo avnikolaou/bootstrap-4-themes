@@ -5,6 +5,7 @@ import Newsletter from "./Newsletter";
 import Boxes from "./Boxes";
 import About from "./About";
 import Authors from "./Authors";
+import Contact from "./Contact";
 
 class Mizuxe extends Component{
 
@@ -17,6 +18,7 @@ class Mizuxe extends Component{
                 <Boxes/>
                 <About/>
                 <Authors/>
+                <Contact/>
             </div>
 
         )

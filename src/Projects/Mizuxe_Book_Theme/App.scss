@@ -80,6 +80,12 @@ $primary-overlay: rgba(50, 146, 166, 0.75);
   }
 }
 
+#contact {
+  .custom-input {
+    background-color: $primary;
+  }
+}
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px;
