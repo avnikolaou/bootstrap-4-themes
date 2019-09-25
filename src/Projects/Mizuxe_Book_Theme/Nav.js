@@ -18,7 +18,7 @@ class Nav extends Component{
                     </button>
                     <div className={"collapse navbar-collapse"} id={"navbarCollapse"}>
                         <ul className={"navbar-nav ml-auto"}>
-                            <li className={"nav-item"}>
+                            <li className={"nav-item active"}>
                                 <Link className={"nav-link pointer"} to="showcase" spy={true} smooth={true} offset={-75} duration={500} onSetActive={this.handleSetActive}>Home</Link>
                             </li>
                             <li className={"nav-item"}>

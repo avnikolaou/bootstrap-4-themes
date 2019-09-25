@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import Nav from "./Nav";
 
 class Glozzom extends Component {
     render() {
         return (
             <div>
-                Glozzom theme!!
+                <Nav/>
             </div>
         );
     }
