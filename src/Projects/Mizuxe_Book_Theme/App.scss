@@ -58,6 +58,25 @@ $primary-overlay: rgba(50, 146, 166, 0.75);
   }
 }
 
+#authors {
+  h1 {
+    color: $primary;
+  }
+  img {
+    margin-top: -50px;
+  }
+  .svg-inline--fa {
+    color: $primary;
+  }
+  .card:hover {
+    background-color: $primary;
+    color: white;
+    .svg-inline--fa {
+      color: white;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px;

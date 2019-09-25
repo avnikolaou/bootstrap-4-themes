@@ -39,6 +39,18 @@
   margin: auto;
   border-bottom: 1px #ddd solid; }
 
+#authors h1 {
+  color: #3292a6; }
+#authors img {
+  margin-top: -50px; }
+#authors .svg-inline--fa {
+  color: #3292a6; }
+#authors .card:hover {
+  background-color: #3292a6;
+  color: white; }
+  #authors .card:hover .svg-inline--fa {
+    color: white; }
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px; }
