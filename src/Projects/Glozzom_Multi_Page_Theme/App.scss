@@ -64,6 +64,16 @@
     }
 }
 
+#page-header {
+    height: 200px;
+    background: url('../../images/glozzom/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
 #main-footer {
     background-color: #000;
     color: #ffffff;
