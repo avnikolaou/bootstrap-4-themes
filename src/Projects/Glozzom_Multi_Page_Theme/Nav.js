@@ -14,7 +14,7 @@ class Nav extends Component {
                     <div id={"navbarCollapse"} className={"collapse navbar-collapse"}>
                         <ul className={"navbar-nav ml-auto"}>
                             <li className={"nav-item"}>
-                                <NavLink className={"nav-link pointer"} to="/Glozzom" activeClassName={"active"}>Home</NavLink>
+                                <NavLink className={"nav-link pointer"} to="/Glozzom" exact={true} activeClassName={"active"}>Home</NavLink>
                             </li>
 
                             <li className={"nav-item"}>
@@ -22,7 +22,7 @@ class Nav extends Component {
                             </li>
 
                             <li className={"nav-item"}>
-                                <NavLink className={"nav-link pointer"} to="/Glozzom/services" activeClassName={"active"}>Servcies</NavLink>
+                                <NavLink className={"nav-link pointer"} to="/Glozzom/services" activeClassName={"active"}>Servces</NavLink>
                             </li>
 
                             <li className={"nav-item"}>
