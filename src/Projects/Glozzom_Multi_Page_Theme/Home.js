@@ -88,7 +88,7 @@ class Home extends Component {
                     </div>
                 </section>
 
-                HOME ICON SECTION
+                {/*HOME ICON SECTION*/}
                 <section id={"home-icons"} className={"py-5"}>
                     <div className={"container"}>
                         <div className={"row"}>
@@ -208,7 +208,7 @@ class Home extends Component {
                     </div>
                 </section>
 
-                NEWSLETTER
+                {/*NEWSLETTER*/}
                 <section id="newsletter" className="text-center p-5 bg-dark text-white">
                     <div className="container">
                         <div className="row">
