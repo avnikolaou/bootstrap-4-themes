@@ -5,7 +5,6 @@ import $ from 'jquery';
 
 class Home extends Component {
 
-
     componentDidMount() {
         // Slider Timer
         $('.carousel').carousel({
@@ -89,7 +88,7 @@ class Home extends Component {
                     </div>
                 </section>
 
-                {/*HOME ICON SECTION*/}
+                HOME ICON SECTION
                 <section id={"home-icons"} className={"py-5"}>
                     <div className={"container"}>
                         <div className={"row"}>
@@ -113,15 +112,13 @@ class Home extends Component {
                 {/*HOME HEADING SECTION*/}
                 <section id={"home-heading"} className={"p-5"}>
                     <div className={"dark-overlay"}>
-                        <div className={"row"}>
-                            <div className={"col"}>
-                                <div className={"container pt-5"}>
-                                    <h1>Are You Ready To Get Started</h1>
-                                    <p className={"d-none d-md-block"}>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                                    </p>
-                                </div>
+                        <div className={"col"}>
+                            <div className={"container pt-5"}>
+                                <h1>Are You Ready To Get Started</h1>
+                                <p className={"d-none d-md-block"}>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -147,14 +144,84 @@ class Home extends Component {
                 {/*VIDEO PLAY*/}
                 <section id={"video-play"}>
                     <div className={"dark-overlay"}>
-                        <div className={"row"}>
-                            <div className={"col"}>
-                                <div className={"container p-5"}>
-                                    <a href="#" className={"video"} data-video={"https://www.youtube.com/embed/HnwsG9a5riA"}
-                                       data-toggle={"modal"} data-target={"#videoModal"}><FontAwesomeIcon icon={"play"} className={"fa-3x"}/>
-                                    </a>
-                                    <h1>See What We Do</h1>
-                                </div>
+                        <div className={"col"}>
+                            <div className={"container p-5"}>
+                                <a href="#" className={"video"} data-video={"https://www.youtube.com/embed/HnwsG9a5riA"}
+                                   data-toggle={"modal"} data-target={"#videoModal"}><FontAwesomeIcon icon={"play"} className={"fa-3x"}/>
+                                </a>
+                                <h1>See What We Do</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/*PHOTO GALLERY*/}
+                <section id={"gallery"} className={"py-5"}>
+                    <div className={'container'}>
+                        <h1 className={"text-center"}>Photo Gallery</h1>
+                        <p className={"text-center"}>Check Out Our Photos</p>
+                        <div className={"row mb-4"}>
+                            <div className={"col-md-4"}>
+                                <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery"
+                                   data-height="560" data-width="560">
+                                    <img src="https://source.unsplash.com/random/560x560" alt="" className={"img-fluid"}/>
+                                </a>
+                            </div>
+
+                            <div className={"col-md-4"}>
+                                <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery"
+                                   data-height="560" data-width="560">
+                                    <img src="https://source.unsplash.com/random/561x561" alt="" className={"img-fluid"}/>
+                                </a>
+                            </div>
+
+                            <div className={"col-md-4"}>
+                                <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery"
+                                   data-height="560" data-width="560">
+                                    <img src="https://source.unsplash.com/random/562x562" alt="" className={"img-fluid"}/>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className={"row mb-4"}>
+                            <div className={"col-md-4"}>
+                                <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox" data-gallery="img-gallery"
+                                   data-height="560" data-width="560">
+                                    <img src="https://source.unsplash.com/random/563x563" alt="" className={"img-fluid"}/>
+                                </a>
+                            </div>
+
+                            <div className={"col-md-4"}>
+                                <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox" data-gallery="img-gallery"
+                                   data-height="560" data-width="560">
+                                    <img src="https://source.unsplash.com/random/564x564" alt="" className={"img-fluid"}/>
+                                </a>
+                            </div>
+
+                            <div className={"col-md-4"}>
+                                <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox" data-gallery="img-gallery"
+                                   data-height="560" data-width="560">
+                                    <img src="https://source.unsplash.com/random/565x565" alt="" className={"img-fluid"}/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                NEWSLETTER
+                <section id="newsletter" className="text-center p-5 bg-dark text-white">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <h1>Sign Up For Our Newsletter</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores
+                                    consectetur, quae ducimus voluptates
+                                    vero repellendus architecto maiores recusandae mollitia?</p>
+                                <form className="form-inline justify-content-center">
+                                    <input type="text" className="form-control mb-2 mr-2" placeholder="Enter Name"></input>
+                                    <input type="text" className="form-control mb-2 mr-2" placeholder="Enter Email"></input>
+                                    <button className="btn btn-primary mb-2">Submit</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -168,7 +235,7 @@ class Home extends Component {
                                 <button className="close" data-dismiss="modal">
                                     <span>&times;</span>
                                 </button>
-                                <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+                                <iframe src="" height="350" width="100%"></iframe>
                             </div>
                         </div>
                     </div>
