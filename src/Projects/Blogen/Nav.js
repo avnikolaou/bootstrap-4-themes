@@ -43,7 +43,7 @@ class Nav extends Component {
                                 </div>
                             </li>
                             <li className="nav-item">
-                                <NavLink className={"nav-link"} to="/Blogen/logout" exact={true} activeClassName={"active"}>
+                                <NavLink className={"nav-link"} to="/Blogen/login" exact={true} activeClassName={"active"}>
                                     <FontAwesomeIcon icon={"user-times"}/> Logout
                                 </NavLink>
                             </li>
