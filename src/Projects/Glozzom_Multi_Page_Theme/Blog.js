@@ -5,6 +5,7 @@ class Blog extends Component {
     render() {
         return (
             <div>
+
                 {/*PAGE HEADER*/}
                 <header id={"page-header"}>
                     <div className={"container"}>
