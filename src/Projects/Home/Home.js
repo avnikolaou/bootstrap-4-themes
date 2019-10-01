@@ -19,6 +19,9 @@ class Home extends Component{
                     <p>
                         <Link to={"/Glozzom"}>Glozzom</Link>
                     </p>
+                    <p>
+                        <Link to={"/Blogen"}>Blogen</Link>
+                    </p>
                 </header>
             </div>
         );

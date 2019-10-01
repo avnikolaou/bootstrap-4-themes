@@ -9,6 +9,7 @@ import  Home  from "./Projects/Home/Home"
 import Looplab from "./Projects/LoopLab_Social_Theme/Looplab";
 import Mizuxe from "./Projects/Mizuxe_Book_Theme/Mizuxe";
 import Glozzom from "./Projects/Glozzom_Multi_Page_Theme/Glozzom";
+import Blogen from "./Projects/Blogen/Blogen";
 
 library.add(fab, faCheckSquare, faCheck, faArrowRight, faEnvelopeOpen, faArrowCircleDown,
     faFacebook, faInstagram, faTwitter, faUser, faEnvelope, faPencilAlt, faCog, faCloud, faCartPlus, faPlay,
@@ -36,6 +37,11 @@ class App extends Component {
 
                 <Route exact path = "/Glozzom" render = {() => (
                     <Glozzom/>
+                )}
+                />
+
+                <Route exact path = "/Blogen" render = {() => (
+                    <Blogen/>
                 )}
                 />
             </BrowserRouter>

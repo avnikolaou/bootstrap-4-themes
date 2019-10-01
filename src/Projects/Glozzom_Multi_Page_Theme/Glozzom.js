@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import { BrowserRouter, Route} from "react-router-dom";
+
 import Nav from "./Nav";
 import Footer from "./Footer";
-import { BrowserRouter, Route} from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Services from "./Services";
