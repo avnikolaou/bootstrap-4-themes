@@ -3,6 +3,8 @@ import { BrowserRouter, Route} from "react-router-dom";
 
 import Nav from "./Nav"
 import Footer from "./Footer";
+import Dashboard from "./Dashboard";
+
 
 
 class Blogen extends Component {
@@ -10,7 +12,7 @@ class Blogen extends Component {
         return (
             <BrowserRouter>
                 <Nav/>
-
+                <Route exact path = "/Blogen" component={Dashboard}/>
                 <Footer/>
             </BrowserRouter>
         );
