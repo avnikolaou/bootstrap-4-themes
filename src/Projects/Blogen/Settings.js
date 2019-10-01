@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {Link} from "react-router-dom";
 
 class Settings extends Component {
 
@@ -23,14 +24,14 @@ class Settings extends Component {
                     <div className={"container"}>
                         <div className={"row"}>
                             <div className={"col-md-3"}>
-                                <a href="/Blogen" className={"btn btn-light btn-block"}>
+                                <Link to="/Blogen" className={"btn btn-light btn-block"}>
                                     <FontAwesomeIcon icon={"arrow-left"}/> Back To Dashboard
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-md-3">
-                                <a href="/Blogen" className="btn btn-success btn-block">
+                                <Link to="/Blogen" className="btn btn-success btn-block">
                                     <FontAwesomeIcon icon={"arrow-left"}/> Save Changes
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
