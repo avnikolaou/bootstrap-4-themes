@@ -8,11 +8,11 @@ class Footer extends Component {
 
     render() {
         return (
-            <footer id="main-footer" className="text-center p-4">
-                <div className="container">
-                    <div className="row">
-                        <div className="col">
-                            <p>Copyright &copy; <span id="year"></span>{this.getYear()} Blogen</p>
+            <footer id={"main-footer"} className={"text-center p-4"}>
+                <div className={"container"}>
+                    <div className={"row"}>
+                        <div className={"col"}>
+                            <p>Copyright &copy; <span id={"year"}></span>{this.getYear()} Blogen</p>
                         </div>
                     </div>
                 </div>
