@@ -13,8 +13,7 @@ class Users extends Component {
                     <div className={"container"}>
                         <div className={"row"}>
                             <div className={"col-md-6"}>
-                                <h1>
-                                    <FontAwesomeIcon icon={"users"}/> Users</h1>
+                                <h1><FontAwesomeIcon icon={"users"}/> Users</h1>
                             </div>
                         </div>
                     </div>

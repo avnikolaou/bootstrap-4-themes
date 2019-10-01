@@ -17,8 +17,7 @@ class Profile extends Component {
                     <div className={"container"}>
                         <div className={"row"}>
                             <div className={"col-md-6"}>
-                                <h1>
-                                    <FontAwesomeIcon icon={"user"}/> Edit Profile</h1>
+                                <h1><FontAwesomeIcon icon={"user"}/> Edit Profile</h1>
                             </div>
                         </div>
                     </div>
