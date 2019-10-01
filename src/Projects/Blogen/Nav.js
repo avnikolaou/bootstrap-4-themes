@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Nav extends Component {
@@ -30,20 +30,20 @@ class Nav extends Component {
 
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item dropdown mr-3">
-                                <NavLink className={"nav-link pointer dropdown-toggle"} to="" exact={true} activeClassName={"active"} data-toggle={"dropdown"}>
+                                <NavLink className={"nav-link dropdown-toggle"} to="" exact={true} data-toggle={"dropdown"}>
                                     <FontAwesomeIcon icon={"user"}/> Welcome Brad
                                 </NavLink>
                                 <div className="dropdown-menu">
-                                    <NavLink className={"dropdown-item"} to="/Blogen/profile" exact={true} activeClassName={"active"}>
+                                    <Link className={"dropdown-item"} to="/Blogen/profile">
                                         <FontAwesomeIcon icon={"user-circle"}/> Profile
-                                    </NavLink>
-                                    <NavLink className={"dropdown-item"} to="/Blogen/settings" exact={true} activeClassName={"active"}>
+                                    </Link>
+                                    <Link className={"dropdown-item"} to="/Blogen/settings">
                                         <FontAwesomeIcon icon={"cog"}/> Settings
-                                    </NavLink>
+                                    </Link>
                                 </div>
                             </li>
                             <li className="nav-item">
-                                <NavLink className={"nav-link"} to="/Blogen/login" exact={true} activeClassName={"active"}>
+                                <NavLink className={"nav-link"} to="/Blogen/login">
                                     <FontAwesomeIcon icon={"user-times"}/> Logout
                                 </NavLink>
                             </li>

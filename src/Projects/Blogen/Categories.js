@@ -7,6 +7,7 @@ class Categories extends Component {
     render() {
         return (
             <div>
+
                 {/*HEADER*/}
                 <header id={"main-header"} className={"py-2 bg-success text-white"}>
                     <div className={"container"}>
