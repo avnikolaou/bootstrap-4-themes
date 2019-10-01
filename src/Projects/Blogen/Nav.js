@@ -30,7 +30,7 @@ class Nav extends Component {
 
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item dropdown mr-3">
-                                <NavLink className={"nav-link pointer"} to="" exact={true} activeClassName={"active"} data-toggle={"dropdown"}>
+                                <NavLink className={"nav-link pointer dropdown-toggle"} to="" exact={true} activeClassName={"active"} data-toggle={"dropdown"}>
                                     <FontAwesomeIcon icon={"user"}/> Welcome Brad
                                 </NavLink>
                                 <div className="dropdown-menu">
