@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import './App.scss'
 
 class Nav extends Component {
+
     render() {
         return (
             <nav className={"nav navbar navbar-expand-sm navbar-dark bg-dark glozzom-navbar"}>
