@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/bootstrap-4-themes/static/css/main.1284f102.chunk.css",
+    "main.js": "/bootstrap-4-themes/static/js/main.02fbe36f.chunk.js",
+    "main.js.map": "/bootstrap-4-themes/static/js/main.02fbe36f.chunk.js.map",
+    "runtime~main.js": "/bootstrap-4-themes/static/js/runtime~main.556565e2.js",
+    "runtime~main.js.map": "/bootstrap-4-themes/static/js/runtime~main.556565e2.js.map",
+    "static/css/2.6169fff2.chunk.css": "/bootstrap-4-themes/static/css/2.6169fff2.chunk.css",
+    "static/js/2.867575a2.chunk.js": "/bootstrap-4-themes/static/js/2.867575a2.chunk.js",
+    "static/js/2.867575a2.chunk.js.map": "/bootstrap-4-themes/static/js/2.867575a2.chunk.js.map",
+    "index.html": "/bootstrap-4-themes/index.html",
+    "precache-manifest.7cb18f2dc7631090719df13c548bc973.js": "/bootstrap-4-themes/precache-manifest.7cb18f2dc7631090719df13c548bc973.js",
+    "service-worker.js": "/bootstrap-4-themes/service-worker.js",
+    "static/css/2.6169fff2.chunk.css.map": "/bootstrap-4-themes/static/css/2.6169fff2.chunk.css.map",
+    "static/css/main.1284f102.chunk.css.map": "/bootstrap-4-themes/static/css/main.1284f102.chunk.css.map",
+    "static/media/avatar.png": "/bootstrap-4-themes/static/media/avatar.5f92255b.png",
+    "static/media/book.png": "/bootstrap-4-themes/static/media/book.d77715c3.png",
+    "static/media/create-section1.jpg": "/bootstrap-4-themes/static/media/create-section1.a58d6558.jpg",
+    "static/media/explore-section1.jpg": "/bootstrap-4-themes/static/media/explore-section1.38bb4d9a.jpg",
+    "static/media/App.css": "/bootstrap-4-themes/static/media/home.e2dc0ca7.jpg",
+    "static/media/App.scss": "/bootstrap-4-themes/static/media/mountains.e273a355.jpg",
+    "static/media/laptop.png": "/bootstrap-4-themes/static/media/laptop.63891ba6.png",
+    "static/media/logo.svg": "/bootstrap-4-themes/static/media/logo.5d5d9eef.svg",
+    "static/media/mlogo.png": "/bootstrap-4-themes/static/media/mlogo.78e58366.png",
+    "static/media/person1.jpg": "/bootstrap-4-themes/static/media/person1.92fe2348.jpg",
+    "static/media/person2.jpg": "/bootstrap-4-themes/static/media/person2.68321345.jpg",
+    "static/media/person3.jpg": "/bootstrap-4-themes/static/media/person3.63cae732.jpg",
+    "static/media/person4.jpg": "/bootstrap-4-themes/static/media/person4.e11da433.jpg",
+    "static/media/share-section1.jpg": "/bootstrap-4-themes/static/media/share-section1.c59ce524.jpg",
+    "static/media/slick-theme.css": "/bootstrap-4-themes/static/media/slick.f97e3bbf.svg"
+  }
+}
